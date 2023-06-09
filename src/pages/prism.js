@@ -1,5 +1,6 @@
 import PrismDesc from "./prismdescription";
 import { useState, useEffect } from "react";
+import PrismMob from "./prismmob";
 export default function PrismPage(){
     const [shouldAnimate, setShouldAnimate] = useState(false);
 
@@ -31,9 +32,12 @@ export default function PrismPage(){
 
     return (
         <div>
-            <div style={{height: '80px', background: 'black'}}>
-
+                        <div className="opalmob">
+            <PrismMob/>
             </div>
+            <div style={{height: '80px', background: 'black'}}>
+            </div>
+            <div className="opaldesktop">
             <div className="headersection">
                 <h1 className="robotname">PRISM</h1>
                 <p className="robottype">Autonomous Advertising Robot</p>
@@ -126,6 +130,9 @@ export default function PrismPage(){
                     <img src="https://faceaqses.s3.amazonaws.com/roboads_website/opalRobot.jpg" alt="Product" style={{ width: '40%' }} />
                 </div>
             </div>
+
+            </div>
+
 
         </div>
     );
