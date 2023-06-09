@@ -50,7 +50,7 @@ export default function Opalpage() {
                 </div>
                 <div className="horizontalbuttoncontainer" style={{marginBottom:'5%'}}>
                     <button className="transparentbutton" style={{fontSize:'1.2vw'}}>RENT NOW</button>
-                    <button className="blackbutton" style={{fontSize:'1.2vw'}}>BOOK ENQUIRY</button>
+                    <button className="blackbutton" style={{fontSize:'1.2vw'}}>INQUIRE</button>
                 </div>
             </div>
             <OpalDesc/>
