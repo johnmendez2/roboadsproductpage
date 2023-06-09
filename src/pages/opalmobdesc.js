@@ -68,6 +68,20 @@ export default function OpalMobDesc(){
                 <p className="descpara" style={{paddingLeft: '0', width: '100%', fontSize: '1.3rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
             </div>
+
+            <div className="desc4k" style={{backgroundColor:'#232323'}}>
+                <div className="desc4ktext" style={{color: 'white',padding: '10px'}}>
+                    
+                    <h1 className='descname'>ADVERTISING</h1>
+                    <p className='descpara' style={{paddingLeft: '0', width: '100%', fontSize: '1.3rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <div className='headersection'>
+                    <img src={avatar} alt="Avatar"style={{ width: '58%' }} />
+                    </div>
+         
+                                </div>       
+                        </div>
+
+
             <div className="desc4k" style={{backgroundColor:'#232323'}}>
                 <div className="desc4ktext" style={{color: 'white',padding: '10px'}}>
                     <h1 className='descname'>TELEPRESENCE</h1>

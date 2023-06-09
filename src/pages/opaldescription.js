@@ -72,6 +72,17 @@ export default function OpalDesc(){
                         </video>    
             </div>
             </div>
+
+            <div className="lastsection" style={{backgroundColor:'#232323', paddingBottom:'20px'}}>
+            <div className="text-section" style={{color: 'white'}}>
+                    <h1 className='descname'>ADVERTISING</h1>
+                    <p className='futurepara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+            <div className="futureimage-section">
+            <img src={avatar} alt="Avatar" style={{ width: '18rem', marginRight: '5%', textAlign: 'center' }} />                          </div>
+                        </div>
+
+
             <div className="futuresection" style={{backgroundColor:'#232323', paddingBottom:'20px'}}>
             <div className="futureimage-section" >
             <img src={avatar} alt="Avatar" style={{ width: '18rem', marginRight: '15%' }} />                 </div>
