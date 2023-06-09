@@ -63,7 +63,7 @@ export default function OpalDesc(){
              <div className="desc4k" style={{marginTop: '-2%' , background:'#232323', marginBottom: '-100px'}}>
             {/* <div className="desc4k" style={{marginTop: '-2%' , background:'linear-gradient(171.8deg, rgb(5, 111, 146) 13.5%, rgb(6, 57, 84) 78.6%)'}}> */}
             <div className='desc4ktext' style={{color:'white'}}>
-            <h1                     className={`descname`}>COMPLETELY AUTONOMOUS</h1>
+            <h1 className={`descname`}>COMPLETELY AUTONOMOUS</h1>
                 <p className="descpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
             <div className="futureimage-section" style={{marginBottom: '5%' , marginTop: '5%'}}>

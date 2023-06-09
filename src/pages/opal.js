@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/opalpage.css'
 import { useState, useEffect } from "react";
 import OpalDesc from "./opaldescription";
+import OpalMob from "./opalmob";
 export default function Opalpage() {
     const [shouldAnimate, setShouldAnimate] = useState(false);
 
@@ -33,9 +34,13 @@ export default function Opalpage() {
 
     return (
         <div>
+            <div className="opalmob">
+            <OpalMob/>
+            </div>
             <div style={{height: '80px', background: 'black'}}>
 
             </div>
+            <div className="opaldesktop">
             <div className="headersection">
                 <h1 className="robotname">OPAL</h1>
                 <p className="robottype">Autonomous Advertising Robot</p>
@@ -127,6 +132,7 @@ export default function Opalpage() {
                 <div className="image-section">
                     <img src="https://faceaqses.s3.amazonaws.com/roboads_website/opalRobot.jpg" alt="Product" style={{ width: '40%' }} />
                 </div>
+            </div>
             </div>
 
         </div>
