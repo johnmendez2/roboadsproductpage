@@ -122,15 +122,12 @@ export default function Opalpage() {
     <p class="feature-description">Recharge your Tesla quickly and conveniently at our extensive Supercharger network. Spend less time charging and more time on the road.</p>
   </div>
 </div> */}
-            <div className="lastsection">
-                <div className="text-section">
+            <div className="lastsection" style={{paddingBottom: '30px'}}>
+                <div className="text-section" style={{textAlign: 'center',  marginLeft: '0%'}}>
                     <h1>Advertising has never been more effective</h1>
-                    <p>Rent OPAL today and gain a massive boost in customer engagement. Contact us to learn more.</p>
+                    <p style={{textAlign: 'center'}}>Rent OPAL today and gain a massive boost in customer engagement. Contact us to learn more.</p>
                     <button className="transparentbutton">RENT NOW</button>
                     <button className="blackbutton">CONTACT US</button>
-                </div>
-                <div className="image-section">
-                    <img src="https://faceaqses.s3.amazonaws.com/roboads_website/opalRobot.jpg" alt="Product" style={{ width: '40%' }} />
                 </div>
             </div>
             </div>
