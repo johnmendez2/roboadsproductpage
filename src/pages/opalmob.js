@@ -1,7 +1,6 @@
 import React from "react";
 import '../styles/opalmob.css'
 import { useState, useEffect } from "react";
-import OpalDesc from "./opaldescription";
 import OpalMobDesc from "./opalmobdesc";
 export default function OpalMob(){
     const [shouldAnimate, setShouldAnimate] = useState(false);
@@ -125,7 +124,6 @@ export default function OpalMob(){
                 </div>
                                 </div>
                         </div>
-
         </div>
     );
 }
